@@ -16,7 +16,6 @@ $(document).ready(function () {
                 alert("Geolocation is not supported by this browser.");
             }
         } else if (search_by == "city") {
-
             const city = $(".city-input").val();
             getWeatherByCity(city);
         }
